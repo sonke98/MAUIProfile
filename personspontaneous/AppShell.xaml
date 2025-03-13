@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="personspontaneous.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:personspontaneous"
+    Shell.FlyoutBehavior="Disabled"
+    Title="personspontaneous"
+    Shell.NavBarIsVisible="False"><!-- Đây là code bỏ dấu mũi tên back phía góc trên bên trái màn hình-->
+
+    <ShellContent ContentTemplate="{DataTemplate local:MainPage}" Route="MainPage"/>
+    <ShellContent ContentTemplate="{DataTemplate local:LoginPage}" Route="LoginPage" />
+    <ShellContent ContentTemplate="{DataTemplate local:MenuPage}" Route="MenuPage" />
+</Shell>

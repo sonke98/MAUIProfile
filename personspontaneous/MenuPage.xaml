@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="personspontaneous.MenuPage"
+             Title="MenuPage">
+    <ScrollView>
+        <VerticalStackLayout>
+            <Label 
+        Text="My Category"
+        VerticalOptions="Center" 
+        HorizontalOptions="Center"
+        FontSize="30"
+        FontAttributes="Bold"/>
+            <Label 
+        Text="Select one of the items below to view"
+        VerticalOptions="Center" 
+        HorizontalOptions="Center"
+        FontSize="15"
+        TextColor="Gray"/>
+            <Grid ColumnDefinitions="*,*,*" RowDefinitions="*,*,*" Padding="20" ColumnSpacing="10" RowSpacing="10">
+                <Frame x:Name="frmPersonal" Grid.Column="0" Grid.Row="0" BorderColor="Transparent">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="frmPersonal_Tapped"></TapGestureRecognizer>
+                    </Frame.GestureRecognizers>
+                    <VerticalStackLayout>
+                        <Image Source="https://sonke98.github.io/ImageMAUIParking/user.png"></Image>
+                        <Label TextColor="#555555" HorizontalTextAlignment="Center" FontAttributes="Bold" Text="Profile"></Label>
+                    </VerticalStackLayout>
+                </Frame>
+                <Frame Grid.Column="1" Grid.Row="0" x:Name="frmMenuSystems"  BorderColor="Transparent">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="frmMenuSystems_Tapped"></TapGestureRecognizer>
+                    </Frame.GestureRecognizers>
+                    <VerticalStackLayout>
+                        <Image Source="https://sonke98.github.io/ImageMAUIParking/system.png"></Image>
+                        <Label TextColor="#555555" HorizontalTextAlignment="Center" FontAttributes="Bold" Text="System"></Label>
+                    </VerticalStackLayout>
+                </Frame>
+                <Frame Grid.Column="2" Grid.Row="0" x:Name ="frmElectric" BorderColor="Transparent">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="frmElectric_Tapped"></TapGestureRecognizer>
+                    </Frame.GestureRecognizers>
+                    <VerticalStackLayout>
+                        <Image Source="https://sonke98.github.io/ImageMAUIParking/electric.png"></Image>
+                        <Label FontSize="18" HorizontalTextAlignment="Center" Text="Điện đóm"></Label>
+                    </VerticalStackLayout>
+                </Frame>
+                <Frame Grid.Column="0" Grid.Row="1" BorderColor="Transparent" x:Name="frmHeartBeat">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="frmHeartBeat_Tapped"></TapGestureRecognizer>
+                    </Frame.GestureRecognizers>
+                    <VerticalStackLayout>
+                        <Image Source="https://sonke98.github.io/ImageMAUIParking/heartbeat.png"></Image>
+                        <Label FontSize="18" HorizontalTextAlignment="Center" Text="Sức khỏe"></Label>
+                    </VerticalStackLayout>
+                </Frame>
+                <Frame Grid.Column="1" Grid.Row="1" x:Name="frmKnowlegde" BorderColor="Transparent">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="frmKnowlegde_Tapped"></TapGestureRecognizer>
+                    </Frame.GestureRecognizers>
+                    <VerticalStackLayout>
+                        <Image Source="https://sonke98.github.io/ImageMAUIParking/book.png"></Image>
+                        <Label FontSize="18" HorizontalTextAlignment="Center" Text="Kiến thức"></Label>
+                    </VerticalStackLayout>
+                </Frame>
+                <Frame Grid.Column="2" Grid.Row="1" x:Name="frmSciene" BorderColor="Transparent">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="frmSciene_Tapped"></TapGestureRecognizer>
+                    </Frame.GestureRecognizers>
+                    <VerticalStackLayout>
+                        <Image Source="https://sonke98.github.io/ImageMAUIParking/sciene.png"></Image>
+                        <Label FontSize="18" HorizontalTextAlignment="Center" Text="Khoa học"></Label>
+                    </VerticalStackLayout>
+                </Frame>
+                <Frame Grid.Column="0" Grid.Row="2" x:Name="frmTech" BorderColor="Transparent">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="frmTech_Tapped"></TapGestureRecognizer>
+                    </Frame.GestureRecognizers>
+                    <VerticalStackLayout>
+                        <Image Source="https://sonke98.github.io/ImageMAUIParking/microchip.png"></Image>
+                        <Label FontSize="18" HorizontalTextAlignment="Center" Text="Công nghệ"></Label>
+                    </VerticalStackLayout>
+                </Frame>
+            </Grid>
+        </VerticalStackLayout> 
+    </ScrollView>
+</ContentPage>

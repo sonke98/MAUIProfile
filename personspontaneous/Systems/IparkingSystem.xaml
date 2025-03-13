@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="personspontaneous.Systems.IparkingSystem"
+             Title="IparkingSystem">
+    <ScrollView>
+        <VerticalStackLayout>
+            <Label 
+                Text="IPARKING SYSTEM"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
+
+            <VerticalStackLayout Padding="10" Spacing="10">
+                <Border>
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="50"></RoundRectangle>
+                    </Border.StrokeShape>
+
+                    <Image Source="https://sonke98.github.io/ImageMAUIParking/ImageProject/splashscreen.png" />
+                </Border>
+                <Label Text="Hệ thống Giữ xe Điện tử Thông minh là một giải pháp tối ưu,
+được phát triển trên nền tảng Windows, mang lại sự tiện lợi và hiệu quả trong việc quản lý bãi đỗ xe.
+Với tính năng nổi bật như lưu trữ thông tin, hình ảnh xe và biển số,
+hệ thống không chỉ giúp chủ bãi xe kiểm soát tốt hơn mà còn nâng cao trải nghiệm của người dùng." FontSize="18" HorizontalTextAlignment="Center"/>
+                <Label Text="Tính năng nổi bật của hệ thống bao gồm:"></Label>
+                <Label Margin="10,0,0,0" Text="- Lưu trữ và quản lý thông tin: Hệ thống ghi lại thông tin chi tiết về từng phương tiện, bao gồm hình ảnh và biển số, giúp theo dõi và quản lý dễ dàng."></Label>
+                <Label Margin="10,0,0,0" Text="- Kiểm tra hình ảnh: Khi xe ra vào, hệ thống tự động so sánh hình ảnh giữa lúc vào và lúc ra, đảm bảo tính chính xác và an toàn cho tài sản."></Label>
+                <Label Margin="10,0,0,0" Text="- Báo động thông minh: Tích hợp mạch Arduino, hệ thống có khả năng phát ra cảnh báo khi phát hiện các sự cố bất thường, bảo vệ bãi đỗ xe khỏi rủi ro."></Label>
+                <Label Margin="10,0,0,0" Text="- Nhận diện biển số: Tính năng nhận diện biển số xe tự động giúp nhanh chóng xác thực phương tiện ra vào, giảm thiểu thời gian chờ đợi cho tài xế."></Label>
+                <Label Margin="10,0,0,0" Text="- Quản lý làn xe độc lập: Với khả năng vận hành trên nhiều làn xe ra vào độc lập, hệ thống có thể đáp ứng nhu cầu của các bãi đỗ xe quy mô từ nhỏ đến lớn, linh hoạt kết nối nhiều máy tính cùng lúc."></Label>
+                <Label Margin="10,0,0,0" Text="Một số hình ảnh về hệ thống:" FontSize="18" FontAttributes="Bold"></Label>
+                <Border>
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="10"></RoundRectangle>
+                    </Border.StrokeShape>
+
+                    <Image Source="https://sonke98.github.io/ImageMAUIParking/ImageProject/detail8.jpg" />
+                </Border>
+                <Border>
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="10"></RoundRectangle>
+                    </Border.StrokeShape>
+
+                    <Image Source="https://sonke98.github.io/ImageMAUIParking/ImageProject/detail7.jpg" />
+                </Border>
+                <Border>
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="10"></RoundRectangle>
+                    </Border.StrokeShape>
+
+                    <Image Source="https://sonke98.github.io/ImageMAUIParking/ImageProject/detail11.jpg" />
+                </Border>
+                <Label Margin="10,0,0,0" Text="Sơ đồ vẽ tay của hệ thống 1 cụm 2 máy" FontSize="18" FontAttributes="Italic" HorizontalTextAlignment="Center"></Label>
+                <Border>
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="10"></RoundRectangle>
+                    </Border.StrokeShape>
+
+                    <Image Source="https://sonke98.github.io/ImageMAUIParking/ImageProject/detail6.jpg" />
+                </Border>
+                <Border>
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="10"></RoundRectangle>
+                    </Border.StrokeShape>
+
+                    <Image Source="https://sonke98.github.io/ImageMAUIParking/ImageProject/detail9.jpg" />
+                </Border>
+                <Border>
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="10"></RoundRectangle>
+                    </Border.StrokeShape>
+
+                    <Image Source="https://sonke98.github.io/ImageMAUIParking/ImageProject/detail10.jpg" />
+                </Border>
+                <Label Margin="10,0,0,0" Text="Hình ảnh thi công và thực tế" FontSize="18" FontAttributes="Italic" HorizontalTextAlignment="Center"></Label>
+                <Border>
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="10"></RoundRectangle>
+                    </Border.StrokeShape>
+
+                    <Image Source="https://sonke98.github.io/ImageMAUIParking/ImageProject/detail2.jpg" />
+                </Border>
+                <Border>
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="10"></RoundRectangle>
+                    </Border.StrokeShape>
+
+                    <Image Source="https://sonke98.github.io/ImageMAUIParking/ImageProject/detail3.jpg" />
+                </Border>
+                <Border>
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="10"></RoundRectangle>
+                    </Border.StrokeShape>
+
+                    <Image Source="https://sonke98.github.io/ImageMAUIParking/ImageProject/detail4.jpg" />
+                </Border>
+                <Border>
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="10"></RoundRectangle>
+                    </Border.StrokeShape>
+
+                    <Image Source="https://sonke98.github.io/ImageMAUIParking/ImageProject/detail5.jpg" />
+                </Border>
+                <Border>
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="10"></RoundRectangle>
+                    </Border.StrokeShape>
+
+                    <Image Source="https://sonke98.github.io/ImageMAUIParking/ImageProject/detailiparking.PNG" />
+                </Border>
+                <Border>
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="10"></RoundRectangle>
+                    </Border.StrokeShape>
+
+                    <Image Source="https://sonke98.github.io/ImageMAUIParking/ImageProject/detailiparking1.png" />
+                </Border>
+                <Border>
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="10"></RoundRectangle>
+                    </Border.StrokeShape>
+
+                    <Image Source="https://sonke98.github.io/ImageMAUIParking/ImageProject/detail1.jpg" />
+                </Border>
+                <Border>
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="10"></RoundRectangle>
+                    </Border.StrokeShape>
+
+                    <Image Source="https://sonke98.github.io/ImageMAUIParking/ImageProject/iparking3.png" 
+                           AutomationProperties.Name="Mô tả"
+                           AutomationProperties.HelpText="đây là hình ảnh"></Image>
+                </Border>
+                <Label Margin="10,0,0,0" Text="Hình ảnh giao diện hệ thống" FontSize="18" FontAttributes="Italic" HorizontalTextAlignment="Center"></Label>
+            </VerticalStackLayout>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

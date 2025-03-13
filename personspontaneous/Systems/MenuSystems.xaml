@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="personspontaneous.Systems.MenuSystems"
+             Title="MenuSystems">
+    <ScrollView>
+        <VerticalStackLayout>
+            <Label Text="My Systems" VerticalOptions="Center" HorizontalOptions="Center" FontSize="30" FontAttributes="Bold"/>
+            <Label  Text="Select one of the items below to view" VerticalOptions="Center" HorizontalOptions="Center" FontSize="15" TextColor="Gray"/>
+            <Grid ColumnDefinitions="*,*" RowDefinitions="*,*,*,*" Padding="20" ColumnSpacing="10" RowSpacing="10">
+                <Frame x:Name="eparking" Grid.Row="0" Grid.Column="0" BorderColor="Transparent">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="eparkings_Tapped"></TapGestureRecognizer>
+                    </Frame.GestureRecognizers>
+                    <VerticalStackLayout>
+                        <Image Source="https://sonke98.github.io/ImageMAUIParking/iparking.png"></Image>
+                        <Label TextColor="#555555" FontSize="18" HorizontalTextAlignment="Center" FontAttributes="Bold" Text="E-Parking"></Label>
+                    </VerticalStackLayout>
+                </Frame>
+                <Frame Grid.Row="0" Grid.Column="1"  x:Name="commandcenter" BorderColor="Transparent">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="commandcenter_Tapped"></TapGestureRecognizer>
+                    </Frame.GestureRecognizers>
+                    <VerticalStackLayout>
+                        <Image Source="https://sonke98.github.io/ImageMAUIParking/control.png"></Image>
+                        <Label TextColor="#555555" FontSize="18" HorizontalTextAlignment="Center" FontAttributes="Bold" Text="Command Center"></Label>
+                    </VerticalStackLayout>
+                </Frame>
+                <Frame Grid.Row="1" Grid.Column="0" BorderColor="Transparent">
+                    <VerticalStackLayout>
+                        <Image Source="https://sonke98.github.io/ImageMAUIParking/devicemes.png"></Image>
+                        <Label HorizontalTextAlignment="Center" TextColor="#555555" FontSize="18" FontAttributes="Bold" Text="Device Management MES"></Label>
+                    </VerticalStackLayout>
+                </Frame>
+                <Frame Grid.Row="1" Grid.Column="1" BorderColor="Transparent">
+                    <VerticalStackLayout>
+                        <Image Source="https://sonke98.github.io/ImageMAUIParking/deviceqip.png"></Image>
+                        <Label TextColor="#555555" FontSize="18" HorizontalTextAlignment="Center" FontAttributes="Bold" Text="Device Management QIP"></Label>
+                    </VerticalStackLayout>
+                </Frame>
+                <Frame Grid.Row="2" Grid.Column="0" BorderColor="Transparent">
+                    <VerticalStackLayout>
+                        <Image Source="https://sonke98.github.io/ImageMAUIParking/skill.png" ></Image>
+                        <Label TextColor="#555555" FontSize="18" HorizontalTextAlignment="Center" FontAttributes="Bold" Text="Multi Skills Management"></Label>
+                    </VerticalStackLayout>
+                </Frame>
+                <Frame Grid.Row="2" Grid.Column="1"  BorderColor="Transparent">
+                    <VerticalStackLayout>
+                        <Image Source="https://sonke98.github.io/ImageMAUIParking/warehouse.png"></Image>
+                        <Label TextColor="#555555" FontSize="18" HorizontalTextAlignment="Center" FontAttributes="Bold" Text="BE Digital Warehouse PWA"></Label>
+                    </VerticalStackLayout>
+                </Frame>
+                <Frame Grid.Row="3" Grid.Column="0" BorderColor="Transparent">
+                    <VerticalStackLayout>
+                        <Image Source="https://sonke98.github.io/ImageMAUIParking/humidity.png"></Image>
+                        <Label TextColor="#555555" FontSize="18" HorizontalTextAlignment="Center" FontAttributes="Bold" Text="BE Dashboard Temp and Humid 24/7"></Label>
+                    </VerticalStackLayout>
+                </Frame>
+                <Frame Grid.Row="3" Grid.Column="1" BorderColor="Transparent">
+                    <VerticalStackLayout>
+                        <Image Source="https://sonke98.github.io/ImageMAUIParking/damp.png"></Image>
+                        <Label TextColor="#555555" FontSize="18" HorizontalTextAlignment="Center" FontAttributes="Bold" Text="Humidity Overview"></Label>
+                    </VerticalStackLayout>
+                </Frame>
+            </Grid>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

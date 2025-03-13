@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="personspontaneous.MainPage">
+    <AbsoluteLayout Padding="0">
+
+        <!-- Nền bo góc -->
+        <Border StrokeThickness="1"
+            BackgroundColor="#324248"
+            Stroke="#324248"
+            Padding="0"
+            AbsoluteLayout.LayoutBounds="0,1,1,0.72"
+            AbsoluteLayout.LayoutFlags="All">
+            <Border.StrokeShape>
+                <RoundRectangle CornerRadius="22,22,0,0"/>
+                <!-- Bo góc 30px -->
+            </Border.StrokeShape>
+        </Border>
+        <ScrollView AbsoluteLayout.LayoutBounds="0,0,1,1"
+                    AbsoluteLayout.LayoutFlags="All">
+            <VerticalStackLayout>
+                <Grid ColumnDefinitions="*,*,*" HorizontalOptions="Center" Padding="20">
+                    <Image Grid.Column="0" Source="https://sonke98.github.io/ImageMAUIParking/iconmain.png" HorizontalOptions="Start"/>
+                    <Label Grid.Column="1" Text="of" VerticalOptions="Center" FontFamily="OpenSans-Semibold"/>
+                    <Label Grid.Column="2" Text="ME!" VerticalOptions="Center" FontSize="30" FontFamily="OpenSans-Semibold" TextColor="DeepPink"/>
+                </Grid>
+
+                <StackLayout Padding="0">
+                    <Grid>
+                        <!-- Cột 3 phần: Trái - Trung tâm (Carousel) - Phải -->
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
+
+                        <!-- Mũi tên trái -->
+                        <Button
+                            x:Name="btnPrevious"
+                            Text="❮"
+                            FontSize="20"
+                            BackgroundColor="Transparent"
+                            TextColor="White"
+                            Grid.Column="0"
+                            VerticalOptions="Center"
+                            Clicked="OnPreviousClicked"/>
+
+                        <!-- CarouselView -->
+                        <CarouselView 
+                            x:Name="carouselView" 
+                            Grid.Column="1"
+                            ItemsSource="{Binding ImageMains}" 
+                            PositionChanged="OncarouselViewPositionChanged" 
+                            IndicatorView="{x:Reference indicatorView}" 
+                            Loop="True">
+                            <CarouselView.ItemTemplate>
+                                <DataTemplate>
+                                    <Border>
+                                        <Border.StrokeShape>
+                                            <RoundRectangle CornerRadius="20"/>
+                                        </Border.StrokeShape>
+                                        <Image Source="{Binding ImageUrl}" Aspect="AspectFill"/>
+                                    </Border>
+                                </DataTemplate>
+                            </CarouselView.ItemTemplate>
+                        </CarouselView>
+
+                        <!-- Mũi tên phải -->
+                        <Button 
+                            x:Name="btnNext"
+                            Text="❯"
+                            FontSize="20"
+                            BackgroundColor="Transparent"
+                            TextColor="White"
+                            Grid.Column="2"
+                            VerticalOptions="Center"
+                            Clicked="OnNextClicked"/>
+                    </Grid>
+                </StackLayout>
+                <!-- IndicatorView liên kết với Carousel -->
+                <IndicatorView x:Name="indicatorView" HorizontalOptions="Center" Margin="0,10,0,10" />
+                <VerticalStackLayout HorizontalOptions="Center">
+                    <Label
+                        x:Name="lblFoodAndRest"
+                        FontSize="40" 
+                        FontAttributes="Bold" 
+                        TextColor="#ffffff" 
+                        HorizontalTextAlignment="Center">
+                    </Label>
+                    <Label 
+                        x:Name="lblEnjoyEverything"
+                        FontSize="40" 
+                        FontAttributes="Bold" 
+                        TextColor="#ffffff" 
+                        HorizontalTextAlignment="Center">
+                    </Label>
+                    <Label
+                        x:Name="lblContentIntro"
+                        FontSize="20"  
+                        TextColor="#ffffff" 
+                        Margin="0,20,0,0"
+                        HorizontalTextAlignment="Center">
+                        
+                    </Label>
+                </VerticalStackLayout>
+                <Grid ColumnDefinitions="*" Padding="40,20,40,20">
+                    <Button
+                        x:Name="btnGetStarted"
+                        Text="Let's Get Started!" 
+                        TextColor="Azure" 
+                        FontAttributes="Bold" 
+                        FontSize="20" 
+                        BackgroundColor="#f96d72" 
+                        Clicked="btnGetStarted_Clicked"
+                        Margin="0,50,0,0"></Button>
+                </Grid>
+            </VerticalStackLayout>
+        </ScrollView>
+    </AbsoluteLayout>
+
+</ContentPage>

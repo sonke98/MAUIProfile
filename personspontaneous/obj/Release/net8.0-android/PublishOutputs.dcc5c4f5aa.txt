@@ -1,0 +1,4 @@
+D:\personspontaneous\personspontaneous\bin\Release\net8.0-android\publish\com.companyname.personspontaneous-Signed.aab
+D:\personspontaneous\personspontaneous\bin\Release\net8.0-android\publish\com.companyname.personspontaneous.aab
+D:\personspontaneous\personspontaneous\bin\Release\net8.0-android\publish\com.companyname.personspontaneous-Signed.apk
+D:\personspontaneous\personspontaneous\bin\Release\net8.0-android\publish\_Microsoft.Android.Resource.Designer.dll

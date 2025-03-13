@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="personspontaneous.Personal.Personnal"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit">
+    <ScrollView>
+        <VerticalStackLayout>
+
+            <Grid RowDefinitions="*,*" RowSpacing="10" Padding="20">
+                <Frame WidthRequest="200" HeightRequest="200" CornerRadius="100" HasShadow="False" Padding="0">
+                    <Image Source="https://sonke98.github.io/ImageMAUIParking/avatar.jpg" Aspect="AspectFill" />
+                </Frame>
+                <Label
+                    Grid.Row ="1"
+                    Text="Lê Thị Tường Vy"
+                    VerticalOptions="Center" 
+                    HorizontalOptions="Center"
+                    FontSize="25"
+                    FontAttributes="Bold"/>
+            </Grid>
+            <Grid ColumnDefinitions="*,*,*" RowDefinitions="auto,auto,auto" HorizontalOptions="Center" ColumnSpacing="15">
+                <HorizontalStackLayout Grid.Row="0" Grid.Column="0" Spacing="5">
+                    <Image x:Name="cakeIcon" Source="https://sonke98.github.io/ImageMAUIParking/cake.png" WidthRequest="50" HeightRequest="50"></Image>
+                    <Label Text="26/01/1998" VerticalTextAlignment="Center"></Label>
+                </HorizontalStackLayout>
+                <HorizontalStackLayout Grid.Row="0" Grid.Column="1" Spacing="5">
+                    <Image x:Name="phoneIcon" Source="https://sonke98.github.io/ImageMAUIParking/telephone.png" WidthRequest="50" HeightRequest="50"></Image>
+                    <Label Text="0345357118" VerticalTextAlignment="Center"></Label>
+                </HorizontalStackLayout>
+                <HorizontalStackLayout Grid.Row="0" Grid.Column="2" Spacing="5">
+                    <Image x:Name="sexIcon" Source="https://sonke98.github.io/ImageMAUIParking/sex.png" WidthRequest="50" HeightRequest="50"></Image>
+                    <Label Text="Nam" VerticalTextAlignment="Center" Padding="0"></Label>
+                </HorizontalStackLayout>
+
+                <HorizontalStackLayout Grid.Row="1" Grid.Column="0" Spacing="5">
+                    <Image x:Name="mailIcon" Source="https://sonke98.github.io/ImageMAUIParking/mail.png"></Image>
+                    <Label Text="nhson260198@gmail.com" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"></Label>
+                </HorizontalStackLayout>
+                <HorizontalStackLayout Grid.Row="2" Grid.ColumnSpan="3" Spacing="5">
+                    <Image x:Name="addressIcon" Source="https://sonke98.github.io/ImageMAUIParking/location.png" WidthRequest="50" HeightRequest="50"></Image>
+                    <Label Text="My An, My Hoa, Binh Minh, Vinh Long" VerticalTextAlignment="Center"></Label>
+                </HorizontalStackLayout>
+
+            </Grid>
+            <VerticalStackLayout Padding="5">
+                <Frame x:Name="frmIntro" Padding="0" BorderColor="Transparent">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="frmIntro_Tapped" />
+                    </Frame.GestureRecognizers>
+                    <toolkit:Expander x:Name="ExpIntro" IsExpanded="False" ExpandedChanged="ExpIntro_ExpandedChanged">
+                        <toolkit:Expander.Header>
+                            <Grid ColumnDefinitions="*,auto" ColumnSpacing="5" Padding="5">
+                                <Border>
+                                    <Border.StrokeShape>
+                                        <RoundRectangle CornerRadius="10"></RoundRectangle>
+                                    </Border.StrokeShape>
+                                    <Label Grid.Column="0" Text="Thông tin chung" FontSize="18" BackgroundColor="RoyalBlue" TextColor="#fff" Padding="10"/>
+                                </Border>
+
+                                <Button Grid.Column="1" x:Name="btnGeneral" Text="+" FontSize="18" BackgroundColor="RoyalBlue" TextColor="#fff" Padding="10"/>
+                            </Grid>
+                        </toolkit:Expander.Header>
+                        <toolkit:Expander.Content>
+                            <Grid RowDefinitions="*,*,*,*" ColumnDefinitions="auto,*" x:Name="ExpContent" HeightRequest="0" Opacity="0" RowSpacing="10" Padding="10">
+                                <Label Grid.Row="0" Grid.Column ="0" Text="Mức lương mong muốn: " FontSize="18" FontAttributes="Bold" />
+                                <Label Grid.Row="0" Grid.Column="1" Text="Thỏa thuận" FontSize="18" TextColor="#555" HorizontalTextAlignment="Center"/>
+                                <Label Grid.Row="1" Grid.Column ="0" Text="Số năm kinh nghiệm: " FontSize="18" FontAttributes="Bold"/>
+                                <Label Grid.Row="1" Grid.Column="1" Text="4 năm" FontSize="18" TextColor="#555"  HorizontalTextAlignment="Center"/>
+                                <Label Grid.Row="2" Grid.Column ="0" Text="Cấp bậc: " FontSize="18" FontAttributes="Bold"/>
+                                <Label Grid.Row="2" Grid.Column="1" Text="Nhân viên" FontSize="18" TextColor="#555"  HorizontalTextAlignment="Center"/>
+                                <Label Grid.Row="3" Grid.Column ="0" Text="Trình độ học vấn: " FontSize="18" FontAttributes="Bold"/>
+                                <Label Grid.Row="3" Grid.Column="1" Text="Cao đẳng" FontSize="18" TextColor="#555"  HorizontalTextAlignment="Center"/>
+                                <!--<Label Grid.Row="4" Grid.Column ="0" Text="Place: " FontSize="20" FontAttributes="Bold"/>
+                                <Label Grid.Row="4" Grid.Column="1" Text="Cần Thơ/Vĩnh Long/Hậu Giang" LineBreakMode="WordWrap" MaxLines="0" FontSize="20" TextColor="#555"  HorizontalTextAlignment="Center"/>-->
+                            </Grid>
+
+                        </toolkit:Expander.Content>
+                    </toolkit:Expander>
+                </Frame>
+                <Frame x:Name="frmEducate" Padding="0" BorderColor="Transparent">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="frmEducate_Tapped" />
+                    </Frame.GestureRecognizers>
+                    <toolkit:Expander x:Name="ExpEducate" IsExpanded="False" ExpandedChanged="ExpEducate_ExpandedChanged">
+                        <toolkit:Expander.Header>
+                            <Grid ColumnDefinitions="*,auto" ColumnSpacing="5" Padding="5">
+                                <Border>
+                                    <Border.StrokeShape>
+                                        <RoundRectangle CornerRadius="10"></RoundRectangle>
+                                    </Border.StrokeShape>
+                                    <Label Grid.Column="0" Text="Học vấn - Kinh nghiệm" FontSize="18" BackgroundColor="RoyalBlue" TextColor="#fff" Padding="10"/>
+                                </Border>
+
+                                <Button Grid.Column="1" x:Name="btnEducate" Text="+" FontSize="18" BackgroundColor="RoyalBlue" TextColor="#fff" Padding="10"/>
+                            </Grid>
+                        </toolkit:Expander.Header>
+                        <toolkit:Expander.Content>
+                            <Grid x:Name="ExpContentEducate" RowDefinitions="auto,*,*,*,*,auto,*,*,*,*,*,*,*,*,*,*,*" ColumnDefinitions="auto,auto"  HeightRequest="0" Opacity="0" RowSpacing="10" ColumnSpacing="5" Padding="5">
+                                <Label Grid.Row="0" Grid.ColumnSpan="2" Text="HỌC VẤN " FontSize="25" FontAttributes="Bold" HorizontalTextAlignment="Center" TextColor="RoyalBlue"/>
+                                <Label Grid.Row="1" Grid.Column ="0" Text="Chuyên môn: " FontSize="18" FontAttributes="Bold,Italic" />
+                                <Label Grid.Row="1" Grid.Column="1" Text="Tin học ứng dụng" FontSize="18" TextColor="#555" HorizontalTextAlignment="Center"/>
+                                <Label Grid.Row="2" Grid.Column ="0" Text="Đơn vị: " FontSize="18" FontAttributes="Bold,Italic"/>
+                                <Label Grid.Row="2" Grid.Column="1" Text="Cao đẳng Cần Thơ" FontSize="18" TextColor="#555"  HorizontalTextAlignment="Center"/>
+                                <Label Grid.Row="3" Grid.Column ="0" Text="Thời gian: " FontSize="18" FontAttributes="Bold,Italic"/>
+                                <Label Grid.Row="3" Grid.Column="1" Text="8/2016 - 5/2019" FontSize="18" TextColor="#555"  HorizontalTextAlignment="Center"/>
+                                <Label Grid.Row="4" Grid.Column ="0" Text="Xếp loại: " FontSize="18" FontAttributes="Bold,Italic"/>
+                                <Label Grid.Row="4" Grid.Column="1" Text="Khá" FontSize="18" TextColor="#555"  HorizontalTextAlignment="Center"/>
+                                <Label Grid.Row="5" Grid.ColumnSpan="2" Text="KINH NGHIỆM LÀM VIỆC" FontSize="25" FontAttributes="Bold" HorizontalTextAlignment="Center" TextColor="RoyalBlue"/>
+                                <Label Grid.Row="6" Grid.Column ="0" Text="06/2019 - 07/2020:" FontSize="16" FontAttributes="Bold,Italic" />
+                                <Label Grid.Row="6" Grid.Column="1" Text="Công ty TNHH XXXXXXX" FontSize="16" TextColor="#555" HorizontalTextAlignment="Center"/>
+                                <Label Grid.Row="7" Grid.Column ="0" Text="Cấp bậc: " FontSize="18" FontAttributes="Bold,Italic"/>
+                                <Label Grid.Row="7" Grid.Column="1" Text="Nhân viên" FontSize="18" TextColor="#555"  HorizontalTextAlignment="Center"/>
+                                <Label Grid.Row="8" Grid.ColumnSpan="2" Text="_______________________________________" FontSize="20" TextColor="#555"  HorizontalTextAlignment="Start"/>
+                                <Label Grid.Row="9" Grid.Column ="0" Text="8/2020 - 01/2021: " FontSize="18" FontAttributes="Bold,Italic"/>
+                                <Label Grid.Row="9" Grid.Column="1" Text="Công ty CPTM BHX" FontSize="18" TextColor="#555"  HorizontalTextAlignment="Center"/>
+                                <Label Grid.Row="10" Grid.Column ="0" Text="Cấp bậc: " FontSize="18" FontAttributes="Bold,Italic"/>
+                                <Label Grid.Row="10" Grid.Column="1" Text="Nhân viên" FontSize="18" TextColor="#555"  HorizontalTextAlignment="Center"/>
+                                <Label Grid.Row="11"  Grid.ColumnSpan="2" Text="_______________________________________" FontSize="20" TextColor="#555"  HorizontalTextAlignment="Center"/>
+                                <Label Grid.Row="12" Grid.Column ="0" Text="02/2022 - 04/2022: " FontSize="18" FontAttributes="Bold,Italic"/>
+                                <Label Grid.Row="12" Grid.Column="1" Text="Công ty TNHH NINJA VAN" FontSize="16" TextColor="#555"  HorizontalTextAlignment="Center"/>
+                                <Label Grid.Row="13" Grid.Column ="0" Text="Cấp bậc: " FontSize="18" FontAttributes="Bold,Italic"/>
+                                <Label Grid.Row="13" Grid.Column="1" Text="Nhân viên" FontSize="18" TextColor="#555"  HorizontalTextAlignment="Center"/>
+                                <Label Grid.Row="14" Grid.ColumnSpan="2" Text="_______________________________________" FontSize="20" TextColor="#555"  HorizontalTextAlignment="Center"/>
+                                <Label Grid.Row="15" Grid.Column ="0" Text="04/2022 - 03/2025: " FontSize="16" FontAttributes="Bold,Italic"/>
+                                <Label Grid.Row="15" Grid.Column="1" Text="Công ty TNHH Lạc Tỷ II" FontSize="16" TextColor="#555"  HorizontalTextAlignment="Center"/>
+                                <Label Grid.Row="16" Grid.Column ="0" Text="Cấp bậc: " FontSize="18" FontAttributes="Bold,Italic"/>
+                                <Label Grid.Row="16" Grid.Column="1" Text="Nhân viên" FontSize="18" TextColor="#555"  HorizontalTextAlignment="Center"/>
+                            </Grid>
+                        </toolkit:Expander.Content>
+                    </toolkit:Expander>
+                </Frame>
+
+                <Frame x:Name="frmLanguage" Padding="0" BorderColor="Transparent">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="frmLanguage_Tapped" />
+                    </Frame.GestureRecognizers>
+                    <toolkit:Expander x:Name="ExpLanguage" IsExpanded="False" ExpandedChanged="ExpLanguage_ExpandedChanged">
+                        <toolkit:Expander.Header>
+                            <Grid ColumnDefinitions="*,auto" ColumnSpacing="5" Padding="5">
+                                <Border>
+                                    <Border.StrokeShape>
+                                        <RoundRectangle CornerRadius="10"></RoundRectangle>
+                                    </Border.StrokeShape>
+                                    <Label Grid.Column="0" Text="Ngoại ngữ" FontSize="18" BackgroundColor="RoyalBlue" TextColor="#fff" Padding="10"/>
+                                </Border>
+
+                                <Button Grid.Column="1" x:Name="btnLanguage" Text="+" FontSize="18" BackgroundColor="RoyalBlue" TextColor="#fff" Padding="10"/>
+                            </Grid>
+                        </toolkit:Expander.Header>
+                        <toolkit:Expander.Content>
+                            <Grid RowDefinitions="auto,auto,auto,auto,auto" ColumnDefinitions="auto,*" x:Name="ExpContentLanguage" HeightRequest="0" Opacity="0" RowSpacing="10" Padding="10">
+                                <Label Grid.Row="0" Grid.ColumnSpan="2" Text="TIẾNG ANH" FontSize="25" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" TextColor="RoyalBlue"/>
+
+                                <Label Grid.Row="1" Grid.Column="0" Text="Nghe:" FontSize="25" HorizontalTextAlignment="End"></Label>
+                                <HorizontalStackLayout Grid.Row="1" Grid.Column="1" Spacing="15" HorizontalOptions="Center">
+                                    <Image Grid.Row="1" Grid.Column="1" Source="star.png" WidthRequest="20"></Image>
+                                    <Image Source="https://sonke98.github.io/ImageMAUIParking/star.png" WidthRequest="20"></Image>
+                                    <Image Source="https://sonke98.github.io/ImageMAUIParking/star.png" WidthRequest="20"></Image>
+                                    <Image Source="https://sonke98.github.io/ImageMAUIParking/star_empty.png" WidthRequest="20"></Image>
+                                    <Image Source="https://sonke98.github.io/ImageMAUIParking/star_empty.png" WidthRequest="20"></Image>
+                                </HorizontalStackLayout>
+                                <Label  Grid.Row="2" Text="Nói:" FontSize="25" HorizontalTextAlignment="End"></Label>
+                                <HorizontalStackLayout Grid.Row="2" Grid.Column="1" Spacing="15" HorizontalOptions="Center">
+                                    <Image Grid.Row="1" Grid.Column="1" Source="star.png" WidthRequest="20"></Image>
+                                    <Image Source="https://sonke98.github.io/ImageMAUIParking/star.png" WidthRequest="20"></Image>
+                                    <Image Source="https://sonke98.github.io/ImageMAUIParking/star.png" WidthRequest="20"></Image>
+                                    <Image Source="https://sonke98.github.io/ImageMAUIParking/star.png" WidthRequest="20"></Image>
+                                    <Image Source="https://sonke98.github.io/ImageMAUIParking/star_empty.png" WidthRequest="20"></Image>
+                                </HorizontalStackLayout>
+
+                                <Label Grid.Row="3" Text="Đọc:" FontSize="25" HorizontalTextAlignment="End"></Label>
+                                <HorizontalStackLayout Grid.Row="3" Grid.Column="1" Spacing="15" HorizontalOptions="Center">
+                                    <Image Grid.Row="1" Grid.Column="1" Source="star.png" WidthRequest="20"></Image>
+                                    <Image Source="https://sonke98.github.io/ImageMAUIParking/star.png" WidthRequest="20"></Image>
+                                    <Image Source="https://sonke98.github.io/ImageMAUIParking/star.png" WidthRequest="20"></Image>
+                                    <Image Source="https://sonke98.github.io/ImageMAUIParking/star.png" WidthRequest="20"></Image>
+                                    <Image Source="https://sonke98.github.io/ImageMAUIParking/star_empty.png" WidthRequest="20"></Image>
+                                </HorizontalStackLayout>
+                                <Label Grid.Row="4" Text="Viết:" FontSize="25" HorizontalTextAlignment="End"></Label>
+                                <HorizontalStackLayout Grid.Row="4" Grid.Column="1" Spacing="15" HorizontalOptions="Center">
+                                    <Image Grid.Row="1" Grid.Column="1" Source="star.png" WidthRequest="20"></Image>
+                                    <Image Source="https://sonke98.github.io/ImageMAUIParking/star.png" WidthRequest="20"></Image>
+                                    <Image Source="https://sonke98.github.io/ImageMAUIParking/star.png" WidthRequest="20"></Image>
+                                    <Image Source="https://sonke98.github.io/ImageMAUIParking/star_empty.png" WidthRequest="20"></Image>
+                                    <Image Source="https://sonke98.github.io/ImageMAUIParking/star_empty.png" WidthRequest="20"></Image>
+                                </HorizontalStackLayout>
+                            </Grid>
+                        </toolkit:Expander.Content>
+                    </toolkit:Expander>
+                </Frame>
+
+                <Frame x:Name="frmActive" Padding="0" BorderColor="Transparent">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="Active_Tapped" />
+                    </Frame.GestureRecognizers>
+                    <toolkit:Expander x:Name="ExpActive" IsExpanded="False" ExpandedChanged="ExpActive_ExpandedChanged">
+                        <toolkit:Expander.Header>
+                            <Grid ColumnDefinitions="*,auto" ColumnSpacing="5" Padding="5">
+                                <Border>
+                                    <Border.StrokeShape>
+                                        <RoundRectangle CornerRadius="10"></RoundRectangle>
+                                    </Border.StrokeShape>
+                                    <Label Grid.Column="0" Text="Hoạt động - Thành tích" FontSize="18" BackgroundColor="RoyalBlue" TextColor="#fff" Padding="10"/>
+                                </Border>
+
+                                <Button Grid.Column="1" x:Name="btnActive" Text="+" FontSize="18" BackgroundColor="RoyalBlue" TextColor="#fff" Padding="10"/>
+                            </Grid>
+                        </toolkit:Expander.Header>
+                        <toolkit:Expander.Content>
+                            <Grid RowDefinitions="*,*,*,*" x:Name="ExpContentActive">
+                                <toolkit:Expander Grid.Row="0" IsExpanded="True">
+                                    <toolkit:Expander.Header>
+                                        <Grid ColumnDefinitions="auto,*" ColumnSpacing="5" Padding="15,0,5,0">
+                                            <Label Grid.Column="0" Text="Công ty TNHH Lạc Tỷ II:" FontSize="16" FontAttributes="Bold" VerticalTextAlignment="Center" TextColor="RoyalBlue" Padding="5,0,0,0"/>
+                                            <Image Grid.Column="1" Source="https://sonke98.github.io/ImageMAUIParking/LY_logo.png"></Image>
+                                        </Grid>
+                                    </toolkit:Expander.Header>
+                                    <toolkit:Expander.Content>
+                                        <VerticalStackLayout Padding="30,10,0,0" Spacing="10">
+                                            <Label Text="- Sử dụng được: C#, ReactJS, SQL, PHP..." FontSize="16"/>
+                                            <Label Text="- Xây dựng hệ thống trên các nền tảng: Desktop, web, app mobile,..." FontSize="16"/>
+                                            <Label Text="- Làm dự án hệ thống giữ xe điện tử nhiều nhà máy sử dụng bào gồm: Lạc Tỷ 2 (LHG), Tỷ Xuân (LVL), Gia Trí 1 (JAZ), Gia Trí 2 (JZS). Hệ thống đang quản lý gần 10 nghìn xe mỗi ngày." FontSize="16"/>
+                                            <Label Text="- Tham gia làm hệ thống kho bãi quản lý nhập xuất nguyên vật liệu, kiểm kê tồn kho hàng háng được 4 nhà máy kể trên đang sử dụng." FontSize="16"/>
+                                            <Label Text="- Các hệ thống khác như: Quản lý thiết bị nội bộ trong công ty, hệ thống command center, eip,...." FontSize="16"/>
+                                            <Label Text="- Lắp ráp PC, dây mạng, camera, máy in,...." FontSize="18"/>
+                                        </VerticalStackLayout>
+                                    </toolkit:Expander.Content>
+                                </toolkit:Expander>
+                                <toolkit:Expander Grid.Row="1" IsExpanded="True">
+                                    <toolkit:Expander.Header>
+                                        <Grid ColumnDefinitions="auto,*" ColumnSpacing="5" Padding="15,0,5,0">
+                                            <Label Grid.Column="0" Text="Công ty CPTM Bách Hóa Xanh:" FontSize="16" FontAttributes="Bold" VerticalTextAlignment="Center" TextColor="RoyalBlue" Padding="5,0,0,0"/>
+                                            <Image Grid.Column="1" Source="https://sonke98.github.io/ImageMAUIParking/bach-hoa-xanh-logo-png-inkythuatso.png"></Image>
+                                        </Grid>
+                                    </toolkit:Expander.Header>
+                                    <toolkit:Expander.Content>
+                                        <VerticalStackLayout Padding="30,10,10,0" Spacing="10">
+                                            <Label Text="- Sắp xếp kho bãi, kiểm kê hàng hóa." FontSize="16"/>
+                                            <Label Text="- Set up layout, khai trương siêu thị." FontSize="16"/>
+                                            <Label Text="- Các công việc liên quan đến hỗ trợ khách hàng." FontSize="16"/>
+                                            <Label Text="- Các hoạt động roadshow triển khai các chương trình." FontSize="16"/>
+                                        </VerticalStackLayout>
+                                    </toolkit:Expander.Content>
+                                </toolkit:Expander>
+                                <toolkit:Expander Grid.Row="2" IsExpanded="True">
+                                    <toolkit:Expander.Header>
+                                        <Grid ColumnDefinitions="auto,*" ColumnSpacing="5" Padding="15,0,5,0">
+                                            <Label Grid.Column="0" Text="Công Ty Tnhh Nin Sing Logistics:" FontSize="16" FontAttributes="Bold" VerticalTextAlignment="Center" TextColor="RoyalBlue" Padding="5,0,0,0"/>
+                                            <Image Grid.Column="1" Source="https://sonke98.github.io/ImageMAUIParking/NinjaVan.png"></Image>
+                                        </Grid>
+                                    </toolkit:Expander.Header>
+                                    <toolkit:Expander.Content>
+                                        <VerticalStackLayout Padding="30,10,0,0" Spacing="10">
+                                            <Label Text="- Inbound, Outbound kiện hàng." FontSize="18"/>
+                                            <Label Text="- Sắp xếp, phân loại, chia hàng theo khu vực được bố trí." FontSize="18"/>
+                                        </VerticalStackLayout>
+                                    </toolkit:Expander.Content>
+                                </toolkit:Expander>
+                                <toolkit:Expander Grid.Row="3" IsExpanded="True">
+                                    <toolkit:Expander.Header>
+                                        <Grid ColumnDefinitions="auto,*" ColumnSpacing="5" Padding="15,0,5,0">
+                                            <Label Grid.Column="0" Text="Công ty TNHH XXXXX:" FontSize="16" FontAttributes="Bold" VerticalTextAlignment="Center" TextColor="RoyalBlue" Padding="5,0,0,0"/>
+                                            <Image Grid.Column="1" Source="https://sonke98.github.io/ImageMAUIParking/LY_logo.png"></Image>
+                                        </Grid>
+                                    </toolkit:Expander.Header>
+                                    <toolkit:Expander.Content>
+                                        <VerticalStackLayout Padding="30,10,0,0" Spacing="10">
+                                            <Label Text="- Nhân viên hiện trường." FontSize="18"/>
+                                        </VerticalStackLayout>
+                                    </toolkit:Expander.Content>
+                                </toolkit:Expander>
+                            </Grid>
+                        </toolkit:Expander.Content>
+                    </toolkit:Expander>
+                </Frame>
+            </VerticalStackLayout>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
