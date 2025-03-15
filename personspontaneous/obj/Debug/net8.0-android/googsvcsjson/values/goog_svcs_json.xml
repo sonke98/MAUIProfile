@@ -1,0 +1,1 @@
+<resources><string name="gcm_defaultSenderId" translatable="false">804368928870</string><string name="google_storage_bucket" translatable="false">floating-notification.firebasestorage.app</string><string name="project_id" translatable="false">floating-notification</string></resources>

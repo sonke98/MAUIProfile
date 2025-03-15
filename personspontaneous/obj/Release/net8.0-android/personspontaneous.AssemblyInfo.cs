@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("personspontaneous")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+e368f94c4d0a21d1e5d331e03e2f0054de84c586")]
 [assembly: System.Reflection.AssemblyProductAttribute("personspontaneous")]
 [assembly: System.Reflection.AssemblyTitleAttribute("personspontaneous")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

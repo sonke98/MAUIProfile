@@ -1,8 +1,10 @@
 ﻿using System.Collections.ObjectModel;
+using CommunityToolkit.Maui.Alerts;
 using Microsoft.Maui.Controls;
+using Microsoft.Maui.Controls.PlatformConfiguration;
 using Microsoft.Maui.Dispatching;
 using Microsoft.Maui.Layouts;
-
+using Plugin.LocalNotification;
 namespace personspontaneous
 {
     public partial class MainPage : ContentPage
@@ -17,7 +19,6 @@ namespace personspontaneous
             ReadFileGit();
             LoadCarouseViewAsync();
         }
-
         public class ImageCarouseView
         {
             public string? ImageUrl { get; set; }
@@ -35,10 +36,10 @@ namespace personspontaneous
                     client.DefaultRequestHeaders.Add("User-Agent", "Mozilla/5.0 (compatible; MyApp/1.0)");
 
                     // Tải nội dung từ URL
-                    string content = await client.GetStringAsync(url);
+                    string? content = await client.GetStringAsync(url);
 
                     // Tách nội dung thành từng hàng
-                    string[] lines = content.Split(new[] { '\n', '\r' }, StringSplitOptions.RemoveEmptyEntries);
+                    string?[] lines = content.Split(new[] { '\n', '\r' }, StringSplitOptions.RemoveEmptyEntries);
                     lblFoodAndRest.Text = lines[0];
                     lblEnjoyEverything.Text = lines[1];
                     lblContentIntro.Text = lines[2];
@@ -204,6 +205,22 @@ namespace personspontaneous
 
         private async void btnGetStarted_Clicked(object sender, EventArgs e)
         {
+            await LocalNotificationCenter.Current.RequestNotificationPermission();
+            var request = new NotificationRequest
+            {
+                NotificationId = 1337,
+                Title = "Thông báo nhắc nhở",
+                Subtitle = "Xin chào!",
+                Description = "Nghỉ đi đi làm làm lol gì",
+                BadgeNumber = 1,
+                //Schedule = new NotificationRequestSchedule
+                //{
+                //    NotifyTime = DateTime.Now.AddSeconds(5),
+                //    NotifyRepeatInterval = TimeSpan.FromDays(1),
+                //    RepeatType = NotificationRepeat.TimeInterval // Quan trọng để lặp lại thông báo
+                //}
+            };
+            await LocalNotificationCenter.Current.Show(request);
             //await Navigation.PushAsync(new LoginPage()); // Điều hướng đến LoginPage
             await Shell.Current.GoToAsync(nameof(LoginPage)); // Điều hướng đến LoginPage
         }

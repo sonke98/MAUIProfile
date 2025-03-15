@@ -27,6 +27,8 @@ D:\personspontaneous\personspontaneous\bin\Debug\net8.0-windows10.0.19041.0\win1
 D:\personspontaneous\personspontaneous\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Maui.Essentials.dll
 D:\personspontaneous\personspontaneous\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Maui.Graphics.dll
 D:\personspontaneous\personspontaneous\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Maui.Graphics.Win2D.WinUI.Desktop.dll
+D:\personspontaneous\personspontaneous\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Toolkit.Uwp.Notifications.dll
+D:\personspontaneous\personspontaneous\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Win32.SystemEvents.dll
 D:\personspontaneous\personspontaneous\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.InteractiveExperiences.Projection.dll
 D:\personspontaneous\personspontaneous\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.WinUI.dll
 D:\personspontaneous\personspontaneous\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.AppLifecycle.Projection.dll
@@ -43,6 +45,8 @@ D:\personspontaneous\personspontaneous\bin\Debug\net8.0-windows10.0.19041.0\win1
 D:\personspontaneous\personspontaneous\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.Widgets.Projection.dll
 D:\personspontaneous\personspontaneous\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.WindowsAppRuntime.Bootstrap.Net.dll
 D:\personspontaneous\personspontaneous\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Plugin.Fingerprint.dll
+D:\personspontaneous\personspontaneous\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Plugin.LocalNotification.dll
+D:\personspontaneous\personspontaneous\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\System.Drawing.Common.dll
 D:\personspontaneous\personspontaneous\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\System.Speech.dll
 D:\personspontaneous\personspontaneous\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\ar\Microsoft.Maui.Controls.resources.dll
 D:\personspontaneous\personspontaneous\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\ca\Microsoft.Maui.Controls.resources.dll
@@ -103,8 +107,9 @@ D:\personspontaneous\personspontaneous\obj\Debug\net8.0-windows10.0.19041.0\win1
 D:\personspontaneous\personspontaneous\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\mauifont.stamp
 D:\personspontaneous\personspontaneous\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf
 D:\personspontaneous\personspontaneous\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf
-D:\personspontaneous\personspontaneous\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\img_main3.scale-100.jpg
+D:\personspontaneous\personspontaneous\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\img_main4.scale-100.jpg
 D:\personspontaneous\personspontaneous\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\img_main2.scale-100.jpg
+D:\personspontaneous\personspontaneous\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\img_main3.scale-100.jpg
 D:\personspontaneous\personspontaneous\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png
 D:\personspontaneous\personspontaneous\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png
 D:\personspontaneous\personspontaneous\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png
@@ -151,13 +156,13 @@ D:\personspontaneous\personspontaneous\obj\Debug\net8.0-windows10.0.19041.0\win1
 D:\personspontaneous\personspontaneous\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png
 D:\personspontaneous\personspontaneous\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png
 D:\personspontaneous\personspontaneous\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico
-D:\personspontaneous\personspontaneous\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\img_main4.scale-100.jpg
 D:\personspontaneous\personspontaneous\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\img_main1.scale-100.jpg
 D:\personspontaneous\personspontaneous\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\mauiimage.stamp
 D:\personspontaneous\personspontaneous\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\mauiimage.outputs
 D:\personspontaneous\personspontaneous\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\personspontaneous.AssemblyInfoInputs.cache
 D:\personspontaneous\personspontaneous\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\personspontaneous.AssemblyInfo.cs
 D:\personspontaneous\personspontaneous\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\personspontaneous.csproj.CoreCompileInputs.cache
+D:\personspontaneous\personspontaneous\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\personspontaneous.sourcelink.json
 D:\personspontaneous\personspontaneous\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\XamlC.stamp
 D:\personspontaneous\personspontaneous\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\personsp.D22ADA20.Up2Date
 D:\personspontaneous\personspontaneous\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\personspontaneous.dll

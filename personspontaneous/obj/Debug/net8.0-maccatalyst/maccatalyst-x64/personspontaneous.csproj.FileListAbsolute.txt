@@ -20,6 +20,7 @@ D:\personspontaneous\personspontaneous\bin\Debug\net8.0-maccatalyst\maccatalyst-
 D:\personspontaneous\personspontaneous\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.Maui.Essentials.dll
 D:\personspontaneous\personspontaneous\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.Maui.Graphics.dll
 D:\personspontaneous\personspontaneous\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Plugin.Fingerprint.dll
+D:\personspontaneous\personspontaneous\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Plugin.LocalNotification.dll
 D:\personspontaneous\personspontaneous\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\ar\Microsoft.Maui.Controls.resources.dll
 D:\personspontaneous\personspontaneous\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\ca\Microsoft.Maui.Controls.resources.dll
 D:\personspontaneous\personspontaneous\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\cs\Microsoft.Maui.Controls.resources.dll
@@ -262,9 +263,9 @@ D:\personspontaneous\personspontaneous\obj\Debug\net8.0-maccatalyst\maccatalyst-
 D:\personspontaneous\personspontaneous\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\mauifont.inputs
 D:\personspontaneous\personspontaneous\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\mauisplash.inputs
 D:\personspontaneous\personspontaneous\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\mauisplash.stamp
-D:\personspontaneous\personspontaneous\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\img_main2.jpg
 D:\personspontaneous\personspontaneous\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\img_main4.jpg
-D:\personspontaneous\personspontaneous\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\img_main1.jpg
+D:\personspontaneous\personspontaneous\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\img_main2.jpg
+D:\personspontaneous\personspontaneous\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\img_main3.jpg
 D:\personspontaneous\personspontaneous\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appiconItunesArtwork.png
 D:\personspontaneous\personspontaneous\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon83.5x83.5@2x.png
 D:\personspontaneous\personspontaneous\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon76x76@2x.png
@@ -277,7 +278,7 @@ D:\personspontaneous\personspontaneous\obj\Debug\net8.0-maccatalyst\maccatalyst-
 D:\personspontaneous\personspontaneous\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon20x20@3x.png
 D:\personspontaneous\personspontaneous\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon20x20@2x.png
 D:\personspontaneous\personspontaneous\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\Contents.json
-D:\personspontaneous\personspontaneous\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\img_main3.jpg
+D:\personspontaneous\personspontaneous\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\img_main1.jpg
 D:\personspontaneous\personspontaneous\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\mauiimage.stamp
 D:\personspontaneous\personspontaneous\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\mauiimage.outputs
 D:\personspontaneous\personspontaneous\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\f\MauiInfo.plist
@@ -297,6 +298,7 @@ D:\personspontaneous\personspontaneous\obj\Debug\net8.0-maccatalyst\maccatalyst-
 D:\personspontaneous\personspontaneous\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\personspontaneous.AssemblyInfoInputs.cache
 D:\personspontaneous\personspontaneous\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\personspontaneous.AssemblyInfo.cs
 D:\personspontaneous\personspontaneous\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\personspontaneous.csproj.CoreCompileInputs.cache
+D:\personspontaneous\personspontaneous\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\personspontaneous.sourcelink.json
 D:\personspontaneous\personspontaneous\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\XamlC.stamp
 D:\personspontaneous\personspontaneous\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\personsp.D22ADA20.Up2Date
 D:\personspontaneous\personspontaneous\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\personspontaneous.dll

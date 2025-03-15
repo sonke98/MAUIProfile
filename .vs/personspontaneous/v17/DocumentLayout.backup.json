@@ -3,32 +3,24 @@
   "WorkspaceRootPath": "D:\\personspontaneous\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DF4CE5FC-50BD-42CB-BC4D-EF53D987D137}|personspontaneous\\personspontaneous.csproj|d:\\personspontaneous\\personspontaneous\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{DF4CE5FC-50BD-42CB-BC4D-EF53D987D137}|personspontaneous\\personspontaneous.csproj|solutionrelative:personspontaneous\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{DF4CE5FC-50BD-42CB-BC4D-EF53D987D137}|personspontaneous\\personspontaneous.csproj|d:\\personspontaneous\\personspontaneous\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF4CE5FC-50BD-42CB-BC4D-EF53D987D137}|personspontaneous\\personspontaneous.csproj|solutionrelative:personspontaneous\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DF4CE5FC-50BD-42CB-BC4D-EF53D987D137}|personspontaneous\\personspontaneous.csproj|d:\\personspontaneous\\personspontaneous\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DF4CE5FC-50BD-42CB-BC4D-EF53D987D137}|personspontaneous\\personspontaneous.csproj|solutionrelative:personspontaneous\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DF4CE5FC-50BD-42CB-BC4D-EF53D987D137}|personspontaneous\\personspontaneous.csproj|d:\\personspontaneous\\personspontaneous\\personal\\personnal.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DF4CE5FC-50BD-42CB-BC4D-EF53D987D137}|personspontaneous\\personspontaneous.csproj|solutionrelative:personspontaneous\\personal\\personnal.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DF4CE5FC-50BD-42CB-BC4D-EF53D987D137}|personspontaneous\\personspontaneous.csproj|d:\\personspontaneous\\personspontaneous\\platforms\\android\\androidmanifest.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{DF4CE5FC-50BD-42CB-BC4D-EF53D987D137}|personspontaneous\\personspontaneous.csproj|solutionrelative:personspontaneous\\platforms\\android\\androidmanifest.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DF4CE5FC-50BD-42CB-BC4D-EF53D987D137}|personspontaneous\\personspontaneous.csproj|d:\\personspontaneous\\personspontaneous\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{DF4CE5FC-50BD-42CB-BC4D-EF53D987D137}|personspontaneous\\personspontaneous.csproj|solutionrelative:personspontaneous\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{DF4CE5FC-50BD-42CB-BC4D-EF53D987D137}|personspontaneous\\personspontaneous.csproj|d:\\personspontaneous\\personspontaneous\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DF4CE5FC-50BD-42CB-BC4D-EF53D987D137}|personspontaneous\\personspontaneous.csproj|solutionrelative:personspontaneous\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DF4CE5FC-50BD-42CB-BC4D-EF53D987D137}|personspontaneous\\personspontaneous.csproj|d:\\personspontaneous\\personspontaneous\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{DF4CE5FC-50BD-42CB-BC4D-EF53D987D137}|personspontaneous\\personspontaneous.csproj|solutionrelative:personspontaneous\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DF4CE5FC-50BD-42CB-BC4D-EF53D987D137}|personspontaneous\\personspontaneous.csproj|d:\\personspontaneous\\personspontaneous\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DF4CE5FC-50BD-42CB-BC4D-EF53D987D137}|personspontaneous\\personspontaneous.csproj|solutionrelative:personspontaneous\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DF4CE5FC-50BD-42CB-BC4D-EF53D987D137}|personspontaneous\\personspontaneous.csproj|d:\\personspontaneous\\personspontaneous\\systems\\iparkingsystem.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DF4CE5FC-50BD-42CB-BC4D-EF53D987D137}|personspontaneous\\personspontaneous.csproj|solutionrelative:personspontaneous\\systems\\iparkingsystem.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DF4CE5FC-50BD-42CB-BC4D-EF53D987D137}|personspontaneous\\personspontaneous.csproj|d:\\personspontaneous\\personspontaneous\\platforms\\android\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF4CE5FC-50BD-42CB-BC4D-EF53D987D137}|personspontaneous\\personspontaneous.csproj|solutionrelative:personspontaneous\\platforms\\android\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,8 +30,47 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "D:\\personspontaneous\\personspontaneous\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "personspontaneous\\MauiProgram.cs",
+              "ToolTip": "D:\\personspontaneous\\personspontaneous\\MauiProgram.cs",
+              "RelativeToolTip": "personspontaneous\\MauiProgram.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T01:42:48.66Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AndroidManifest.xml",
+              "DocumentMoniker": "D:\\personspontaneous\\personspontaneous\\Platforms\\Android\\AndroidManifest.xml",
+              "RelativeDocumentMoniker": "personspontaneous\\Platforms\\Android\\AndroidManifest.xml",
+              "ToolTip": "D:\\personspontaneous\\personspontaneous\\Platforms\\Android\\AndroidManifest.xml",
+              "RelativeToolTip": "personspontaneous\\Platforms\\Android\\AndroidManifest.xml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2025-03-14T07:24:01.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainActivity.cs",
+              "DocumentMoniker": "D:\\personspontaneous\\personspontaneous\\Platforms\\Android\\MainActivity.cs",
+              "RelativeDocumentMoniker": "personspontaneous\\Platforms\\Android\\MainActivity.cs",
+              "ToolTip": "D:\\personspontaneous\\personspontaneous\\Platforms\\Android\\MainActivity.cs",
+              "RelativeToolTip": "personspontaneous\\Platforms\\Android\\MainActivity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T00:44:48.158Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -48,87 +79,23 @@
               "RelativeDocumentMoniker": "personspontaneous\\MainPage.xaml.cs",
               "ToolTip": "D:\\personspontaneous\\personspontaneous\\MainPage.xaml.cs",
               "RelativeToolTip": "personspontaneous\\MainPage.xaml.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAcwCsAAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAqwHMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-08T07:31:27.106Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "MainPage.xaml",
               "DocumentMoniker": "D:\\personspontaneous\\personspontaneous\\MainPage.xaml",
               "RelativeDocumentMoniker": "personspontaneous\\MainPage.xaml",
               "ToolTip": "D:\\personspontaneous\\personspontaneous\\MainPage.xaml",
               "RelativeToolTip": "personspontaneous\\MainPage.xaml",
-              "ViewState": "AgIAAE4AAAAAAAAAAAAAAGEAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAowHEAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-03-10T04:27:26.469Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Personnal.xaml.cs",
-              "DocumentMoniker": "D:\\personspontaneous\\personspontaneous\\Personal\\Personnal.xaml.cs",
-              "RelativeDocumentMoniker": "personspontaneous\\Personal\\Personnal.xaml.cs",
-              "ToolTip": "D:\\personspontaneous\\personspontaneous\\Personal\\Personnal.xaml.cs",
-              "RelativeToolTip": "personspontaneous\\Personal\\Personnal.xaml.cs",
-              "ViewState": "AgIAAG4AAAAAAAAAAAAuwHkAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T04:37:03.765Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "App.xaml",
-              "DocumentMoniker": "D:\\personspontaneous\\personspontaneous\\App.xaml",
-              "RelativeDocumentMoniker": "personspontaneous\\App.xaml",
-              "ToolTip": "D:\\personspontaneous\\personspontaneous\\App.xaml",
-              "RelativeToolTip": "personspontaneous\\App.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-08T07:30:05.474Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AppShell.xaml",
-              "DocumentMoniker": "D:\\personspontaneous\\personspontaneous\\AppShell.xaml",
-              "RelativeDocumentMoniker": "personspontaneous\\AppShell.xaml",
-              "ToolTip": "D:\\personspontaneous\\personspontaneous\\AppShell.xaml",
-              "RelativeToolTip": "personspontaneous\\AppShell.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-08T07:30:08.13Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "App.xaml.cs",
-              "DocumentMoniker": "D:\\personspontaneous\\personspontaneous\\App.xaml.cs",
-              "RelativeDocumentMoniker": "personspontaneous\\App.xaml.cs",
-              "ToolTip": "D:\\personspontaneous\\personspontaneous\\App.xaml.cs",
-              "RelativeToolTip": "personspontaneous\\App.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T07:30:04.631Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IparkingSystem.xaml.cs",
-              "DocumentMoniker": "D:\\personspontaneous\\personspontaneous\\Systems\\IparkingSystem.xaml.cs",
-              "RelativeDocumentMoniker": "personspontaneous\\Systems\\IparkingSystem.xaml.cs",
-              "ToolTip": "D:\\personspontaneous\\personspontaneous\\Systems\\IparkingSystem.xaml.cs",
-              "RelativeToolTip": "personspontaneous\\Systems\\IparkingSystem.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T01:57:07.024Z"
             }
           ]
         }

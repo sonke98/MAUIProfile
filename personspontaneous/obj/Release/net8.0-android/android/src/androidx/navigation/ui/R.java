@@ -23,8 +23,8 @@ public final class R {
 		public static final int config_navAnimTime = 0x7f0a0005;
 	}
 	public static final class string {
-		public static final int dest_title = 0x7f100031;
-		public static final int nav_app_bar_navigate_up_description = 0x7f1000ab;
-		public static final int nav_app_bar_open_drawer_description = 0x7f1000ac;
+		public static final int dest_title = 0x7f100043;
+		public static final int nav_app_bar_navigate_up_description = 0x7f1000bd;
+		public static final int nav_app_bar_open_drawer_description = 0x7f1000be;
 	}
 }
